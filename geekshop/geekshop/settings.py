@@ -39,7 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'mainapp',
+    'authapp',
+    'basketapp',
+    'adminapp',
 ]
+AUTH_USER_MODEL = 'authapp.ShopUser'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -125,3 +129,12 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "geekshop", "static"),
 )
 
+STATICFILES_FINDERS = [
+    "django.contrib.staticfiles.finders.FileSystemFinder",
+    "django.contrib.staticfiles.finders.AppDirectoriesFinder"
+]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+LOGIN_URL = '/auth/login/'
