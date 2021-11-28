@@ -1,0 +1,13 @@
+http://80.78.247.16/
+http://80.78.247.16/products/
+http://80.78.247.16/contact/
+http://80.78.247.16/products/category/1/
+http://80.78.247.16/products/category/2/
+http://80.78.247.16/products/category/3/
+http://80.78.247.16/products/category/4/
+http://80.78.247.16/basket/
+http://80.78.247.16/order/
+http://80.78.247.16/auth/edit/
+http://80.78.247.16/order/update/2/
+http://80.78.247.16/order/update/3/
+http://80.78.247.16/order/update/4/
